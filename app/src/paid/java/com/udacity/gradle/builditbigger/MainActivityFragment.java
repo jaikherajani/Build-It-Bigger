@@ -20,6 +20,8 @@ public class MainActivityFragment extends Fragment implements OnTaskCompleted {
 
     public Button mJokeButton;
     public ProgressBar mProgressBar;
+    public String mResult;
+    public boolean testFlag = false;
 
     public MainActivityFragment() {
         // Required empty public constructor
@@ -51,9 +53,20 @@ public class MainActivityFragment extends Fragment implements OnTaskCompleted {
 
     @Override
     public void onTaskCompleted(String result) {
-        Intent intent = new Intent(getActivity(), JokeActivity.class);
-        intent.putExtra(JokeActivity.JOKE_KEY, result);
-        mProgressBar.setVisibility(View.GONE);
-        startActivity(intent);
+        if (!testFlag)
+        {
+            Intent intent = new Intent(getActivity(), JokeActivity.class);
+            intent.putExtra(JokeActivity.JOKE_KEY, mResult);
+            mProgressBar.setVisibility(View.GONE);
+            startActivity(intent);
+            // AsyncTask is not finish
+        }
+        mResult = result;
+        returnJoke();
+    }
+
+    public String returnJoke()
+    {
+        return mResult;
     }
 }

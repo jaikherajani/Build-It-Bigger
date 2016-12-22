@@ -12,24 +12,20 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 /**
- * udacity-builditbigger
- * Created on 31/08/2016 by Espace de travail.
+ *
+ * Udacity-builditbigger
+ * Created on 22/12/2016 by Jai K Kherajani
  */
 
 @RunWith(AndroidJUnit4.class)
 public class EndpointsAsyncTaskTest {
     @Test
     public void testDoInBackground() throws Exception{
-        try {
-            MainActivity mainActivity = new MainActivity();
-            EndpointsAsyncTask endpointsAsyncTask = new EndpointsAsyncTask(mainActivity);
-            endpointsAsyncTask.execute();
-            String result = endpointsAsyncTask.get(30, TimeUnit.SECONDS);
-
-            assertNotNull(result);
-            assertTrue(result.length() > 0);
-        } catch (Exception e){
-            Log.e("EndpointsAsyncTaskTest", "testDoInBackground: Timed out");
-        }
+        com.udacity.gradle.builditbigger.MainActivityFragment fragment = new com.udacity.gradle.builditbigger.MainActivityFragment();
+        fragment.testFlag = true;
+        new EndpointsAsyncTask(fragment).execute();
+        Thread.sleep(5000);
+        System.out.println("Error: Fetched Joke = " + fragment.returnJoke());
+        assertTrue("Error: Fetched Joke = " + fragment.returnJoke(), fragment.returnJoke() != null);
     }
 }

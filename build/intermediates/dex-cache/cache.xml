@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\androidTest\free\debug\com.android.support.test-rules-0.5_960c252d9f159b89c404322a649d6edfca285370.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-ads-lite-10.0.1_f5bef7ad7059ad6db90abc33b1b6acf456598317.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.android.support-support-compat-25.1.0_a4ccdb37ec743b7dd4356dc1516bbe9442e0b1db.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,6 +48,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\androidTest\free\debug\hamcrest-core-1.3_b6c043f84134fa11706d3ff0cc728584e856846f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.20.0\313dc99a7963523871495897ca11aa8472b3c6fd\google-http-client-android-1.20.0.jar"
         jumboMode="false"
         optimize="true"
@@ -48,93 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.20.0\2408070b2abec043624d35b35e30450f1b663858\google-http-client-jackson2-1.20.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2408070b2abec043624d35b35e30450f1b663858">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-http-client-jackson2-1.20.0_fed607de4a73b230a7560752128b930a2b07d1db.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.20.0\d3e66209ae9e749b2d6833761e7885f60f285564\google-api-client-1.20.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-api-client-1.20.0_53192b70bfd1221917e761d78cce64b1d61fb8c4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.20.0\1d086ac5756475ddf451af2e2df6e288d18608ca\google-oauth-client-1.20.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-oauth-client-1.20.0_19f917d58d0df6354035caf052c1eef29b92f5dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\FinalProject\jokefactory\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="06e622f87b689bd62655c886cafc6fb8a3a4ecb5">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\FinalProject-jokefactory-unspecified_2a5e93a1c694294223ca3c6d929c4fbb630257fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-ads-10.0.1_6a8e0309a649549d86a083388c6d8fbc7f91b776.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jaikh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\support-annotations-25.1.0_93eb42ce6e7ae179fa53a4b051ad9d79c12f4707.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-gass-10.0.1_aeb58136b2fe3050cae5eedb75382ff07d25f6a9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-ui-25.1.0_a209c8233bdf9f8a6f993590c8f5b37ef028cc08.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.android.support-support-compat-25.1.0_a4ccdb37ec743b7dd4356dc1516bbe9442e0b1db.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.20.0\5673179575c32b69a474334255c3044adf18d40\google-api-client-android-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="05673179575c32b69a474334255c3044adf18d40">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-api-client-android-1.20.0_439669cf9268a67573d8f012b13781131884abfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.20.0\2408070b2abec043624d35b35e30450f1b663858\google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-http-client-jackson2-1.20.0_fed607de4a73b230a7560752128b930a2b07d1db.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.20.0\d3e66209ae9e749b2d6833761e7885f60f285564\google-api-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-api-client-1.20.0_53192b70bfd1221917e761d78cce64b1d61fb8c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -156,12 +120,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.20.0\1d086ac5756475ddf451af2e2df6e288d18608ca\google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\google-oauth-client-1.20.0_19f917d58d0df6354035caf052c1eef29b92f5dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-utils-25.1.0_8aed049bf3d9c5c78bdffaa86172c7980a26474e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\androidTest\free\debug\junit-4.12_26952fa37ad317ac0f6dd6d6bd488a9f74667a5f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +165,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\androidTest\free\debug\com.android.support.test-exposed-instrumentation-api-publish-0.5_d8a5b6d45b489e44227a11210d707a7532161500.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\jaikh\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\jsr305-2.0.1_51efb2b650d657967a08a925f2bd9014923099f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\FinalProject\jokefactory\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="06e622f87b689bd62655c886cafc6fb8a3a4ecb5">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\FinalProject-jokefactory-unspecified_2a5e93a1c694294223ca3c6d929c4fbb630257fb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,11 +210,38 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-ads-10.0.1_6a8e0309a649549d86a083388c6d8fbc7f91b776.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\androidTest\free\debug\com.android.support.test-runner-0.5_894c01451a443789ecdadb6de1e517bf80b0274e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jaikh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\support-annotations-25.1.0_93eb42ce6e7ae179fa53a4b051ad9d79c12f4707.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\WORK\Nanodegree\P4\FinalProject\backend\build\libs\backend-android-endpoints.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c2ac401837c42189a9ed8c355cbc6aef0ec26792">
+        sha1="169708091ef38c2ad515fc1ab0e877ecc41e54af">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\backend-android-endpoints_dcea5673c49639b7bf96c268188f0832c81daeff.jar" />
     </item>
     <item
@@ -225,6 +252,15 @@
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.android.support-support-vector-drawable-25.1.0_40f5bdbfef21812519be428b53e0d23dd3ebbe9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-gass-10.0.1_aeb58136b2fe3050cae5eedb75382ff07d25f6a9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -252,6 +288,15 @@
         revision="25.0.2"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
         <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-tasks-10.0.1_597f223ac121bc9d7e2c900d8a313ad87ff8bb75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\WORK\Nanodegree\P4\FinalProject\app\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-ui-25.1.0_a209c8233bdf9f8a6f993590c8f5b37ef028cc08.jar" />
     </item>
 
 </items>

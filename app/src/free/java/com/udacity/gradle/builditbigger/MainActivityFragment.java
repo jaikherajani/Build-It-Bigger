@@ -25,7 +25,8 @@ public class MainActivityFragment extends Fragment implements OnTaskCompleted {
     public InterstitialAd mInterstitialAd;
     public ProgressBar mProgressBar;
     public String mResult;
-    public Boolean mAdsOnScreen;
+    public Boolean mAdsOnScreen = false;
+    public boolean testFlag = false;
 
     public MainActivityFragment() {
     }
@@ -89,6 +90,11 @@ public class MainActivityFragment extends Fragment implements OnTaskCompleted {
     public void onTaskCompleted(String result) {
         mResult = result;
         launchActivity();
+        returnJoke();
+    }
+
+    public String returnJoke() {
+        return mResult;
     }
 
     // Request new interstitial
@@ -103,7 +109,7 @@ public class MainActivityFragment extends Fragment implements OnTaskCompleted {
         mInterstitialAd.loadAd(adRequest);
     }
 
-    // Call three times :
+    // Called three times :
     // - when the user click (-> progressBar or nothing)
     // - when the data is loaded (-> intent or nothing)
     // - when the ads is closed (-> intent or progressBar)
@@ -112,11 +118,14 @@ public class MainActivityFragment extends Fragment implements OnTaskCompleted {
         if (!mAdsOnScreen){
             // Data is ready
             if (mResult != null) {
-                Intent intent = new Intent(getActivity(), JokeActivity.class);
-                intent.putExtra(JokeActivity.JOKE_KEY, mResult);
-                mProgressBar.setVisibility(View.GONE);
-                startActivity(intent);
-                // AsyncTask is not finish
+                if (!testFlag)
+                {
+                    Intent intent = new Intent(getActivity(), JokeActivity.class);
+                    intent.putExtra(JokeActivity.JOKE_KEY, mResult);
+                    mProgressBar.setVisibility(View.GONE);
+                    startActivity(intent);
+                    // AsyncTask is not finish
+                }
             } else {
                 mProgressBar.setVisibility(View.VISIBLE);
             }
